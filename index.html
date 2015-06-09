@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="bootstrap@*" data-semver="3.3.2" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <script data-require="bootstrap@*" data-semver="3.3.2" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+  </head>
+
+  <body>
+        <div class="container">
+        <div class="row">
+            <input type="hidden" name="count" value="1" />
+            <div class="control-group col-lg-4 col-lg-offset-4" id="fields">
+                <label class="control-label" for="field1"><h1>TASK LIST</h1></label>
+                <div class="controls" id="profs">
+                    <form class="input-append">
+                        <div id="field"><input autocomplete="off" class="input form-control" id="field1" name="prof1" type="text" placeholder="Type your task" data-items="8"/>
+                        <button id="b1" class="btn add-more" type="button">+</button></div>
+                    </form>
+                    <br>
+                    <small>Press + to add another form field</small>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>

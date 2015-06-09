@@ -1,0 +1,25 @@
+/* Styles go here */
+
+* {
+  .border-radius(0) !important;
+}
+
+#field {
+margin-bottom:20px;
+}
+
+body {
+  background-color: #D1E3E3 !important;
+}
+button {
+  padding-top: 5px;
+}
+h1 {
+        font-family: 'Oswald', serif;
+        font-size: 48px;
+}
+#checkbox {
+    position:relative;
+    top: -20px;
+    left: 55px;
+}
