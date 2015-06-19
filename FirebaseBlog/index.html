@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Blog</title>
+  <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.2.0/flexboxgrid.min.css" type="text/css" >
+  <script data-require="bootstrap@*" data-semver="3.3.2" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+  <script src='main.js'></script>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="row top-xs">
+    <div class="col-xs">
+      <div id="navbox" class="box">
+        <h1>FIREBASE BLOG</h1>
+        <button id="login" class="button btn-danger xs">LOGIN WITH GOOGLE &nbsp;<i class="fa fa-google"></i></button>
+      </div>
+    </div>
+  </div>
+  <div id="blogpost" class="row middle-xs">
+    <div id="textbox" class="col-xs-12">
+      <div id="input" class="box">
+        <form id="blogsubmit">
+        <textarea type="text" class="input"></textarea><br>
+        <button class"btn" id="submit">POST</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="posts" class="row center-xs">
+    <div id="post" class="col-xs-4 hidden">
+      <div class="box post">
+        <h2 class="author"></h2>
+        <h3 class="time"></h3>
+        <p class='paragraph'></p>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
+
